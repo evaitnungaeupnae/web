@@ -53,7 +53,7 @@ function fetchPerformances() {
     }
 
     var xhr = new XMLHttpRequest();
-    var url = 'http://api.kcisa.kr/openapi/API_CCA_142/request';
+    var url = 'ttps://cors-anywhere.herokuapp.com/http://api.kcisa.kr/openapi/API_CCA_142/request';
     var queryParams = '?' + encodeURIComponent('serviceKey') + '=' + '445e9106-4dd0-4795-8b9f-feb576f973e2';
     queryParams += '&' + encodeURIComponent('numOfRows') + '=' + encodeURIComponent('4');
     queryParams += '&' + encodeURIComponent('pageNo') + '=' + encodeURIComponent('1');
